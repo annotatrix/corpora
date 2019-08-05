@@ -1,9 +1,3 @@
-# sent_id = 5
-# text = Саша".
-1	Саша	Саша	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-2	"	"	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
-
 # sent_id = 6
 # text = Когда письмо принесли, Тагор предавался самосозерцанию.
 1	Когда	когда	ADV	_	Degree=Pos	3	mark	_	_
@@ -105,7 +99,13 @@
 5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 
 # sent_id = 4
-# text = Всего хорошего.
+# text = Всего хорошего.q
 1	Всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	2	det	_	_
 2	хорошего	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Саша".
+1	Саша	Саша	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	"	"	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
