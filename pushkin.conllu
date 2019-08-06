@@ -1,15 +1,3 @@
-# sent_id = 9
-# text = Он, правда, по-русски читать не умел.
-1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	правда	правда	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	по-русски	по-русски	ADV	_	Degree=Pos	8	advmod	_	_
-6	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
-7	не	не	PART	_	_	8	advmod	_	_
-8	умел	уметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
-
 # sent_id = 10
 # text = Так и не познакомились.
 1	Так	так	NOUN	_	Degree=Pos	4	advmod	_	_
@@ -96,7 +84,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 
 # sent_id = 8
-# text = Его жена толкала, толкала, письмо подсовывала — не видит.
+# text = Его жена1 толкала, толкала, письмо подсовывала — не видит.
 1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod:poss	_	_
 2	жена	жена	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	толкала	толкать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -109,3 +97,15 @@
 10	не	не	PART	_	_	11	advmod	_	_
 11	видит	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Он, правда, по-русски читать не умел.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	правда	правда	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	по-русски	по-русски	ADV	_	Degree=Pos	8	advmod	_	_
+6	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	умел	уметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
