@@ -91,12 +91,12 @@
 9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
 
 # sent_id = 10
-# text = Так и не познакомились.
-1	Так	так	ADJ	_	Degree=Pos	4	advmod	_	_
-2	и	и	PART	_	_	4	discourse	_	_
-3	не	не	PART	_	_	4	advmod	_	_
+# text = Так и не познакомились
+1	Так	так	ADJ	_	Degree=Pos	4	_	_	_
+2	и	и	PART	_	_	4	_	_	_
+3	не	не	PART	_	_	4	_	_	_
 4	познакомились	знакомиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	_	_	4	_	_	SpacesAfter=\n
 
 # newdoc
 # newpar
